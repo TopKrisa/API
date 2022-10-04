@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Zabgc.Domain": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:54298;http://localhost:54302"
+    }
+  }
+}

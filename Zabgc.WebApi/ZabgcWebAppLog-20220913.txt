@@ -1,0 +1,14 @@
+2022-09-13 20:25:08.252 +03:00 [INF] Entity Framework Core 5.0.17 initialized 'ZabgcDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2022-09-13 20:25:08.580 +03:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2022-09-13 20:25:09.061 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-13 20:25:09.061 +03:00 [INF] Hosting environment: Development
+2022-09-13 20:25:09.061 +03:00 [INF] Content root path: C:\More\Проекты\ZabgcAPI\Zabgc.WebApi
+2022-09-13 20:25:09.114 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:35005/ - -
+2022-09-13 20:25:09.224 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:35005/ - - - 307 - - 112.3533ms
+2022-09-13 20:25:09.229 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44352/ - -
+2022-09-13 20:25:09.236 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44352/ - - - 404 - - 7.5376ms
+2022-09-13 20:25:21.319 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44352/swagger.json - -
+2022-09-13 20:25:21.321 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44352/swagger.json - - - 404 - - 1.9647ms
+2022-09-13 20:25:42.249 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:35005/news - -
+2022-09-13 20:25:42.253 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:35005/news - - - 307 - - 2.9990ms
